@@ -44,7 +44,7 @@ make load
 ### 3. Check Kernel Logs
 Verify that the module loaded successfully by checking the kernel logs:
 ```bash
-make load
+sudo dmesg | tail
 ```
 ### 4. Unload the Module
 When you're done testing, unload the module:
